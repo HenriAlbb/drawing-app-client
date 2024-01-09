@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 
-export const useDraw = (onDraw: ({ctx, currentPoint, prevPoint}: Draw) => void) => {
+export const UseDraw = (onDraw: ({ctx, currentPoint, prevPoint}: Draw) => void) => {
     const [mouseDown, setMouseDown] = useState(false)
 
     const canvasRef = useRef<HTMLCanvasElement>(null)
