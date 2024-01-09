@@ -6,7 +6,7 @@ import { ChromePicker } from 'react-color'
 import { io } from 'socket.io-client'
 import { DrawLine } from '../utils/drawLine'
 
-const socket = io('https://drawing-app-server-1t6bhr6h0-henrialbbs-projects.vercel.app')
+const socket = io('https://drawing-app-server-1t6bhr6h0-henrialbbs-projects.vercel.app:3000')
 
 
 interface pageProps{}
